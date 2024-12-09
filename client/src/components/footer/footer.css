@@ -1,0 +1,126 @@
+.footer {
+    background: linear-gradient(to bottom, #a589e9, #37034d);
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    margin: 0.5rem;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #f4a261;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  
+  .footer-section h4::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #f4a261;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.75rem;
+  }
+  
+  .footer-section ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+    padding-left: 0;
+  }
+  
+  .footer-section ul a:hover {
+    color: #f4a261;
+    padding-left: 5px;
+  }
+  
+  .social-icons a {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #f4a261;
+    transform: translateY(-5px); /* Lift the icon slightly on hover */
+  }
+  
+  .footer-bottom {
+    margin-top: 3rem;
+    font-size: 0.95rem;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bottom a:hover {
+    color: #f4a261;
+  }
+  
+  .footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #f4a261;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+      max-width: 90%;
+    }
+  
+    .footer-bottom {
+      font-size: 0.85rem;
+    }
+  }
+  

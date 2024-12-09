@@ -1,0 +1,110 @@
+.about {
+    padding: 2rem;
+    background: linear-gradient(to bottom, #ffffff, #e3e1f7, #c6bdf0, #a589e9, #8547e0, #37034d);
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .about-section {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .about-values,
+  .about-services,
+  .about-benefits {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-values li,
+  .about-services li,
+  .about-benefits li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .about-values li::before,
+  .about-services li::before,
+  .about-benefits li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    background: #007bff;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .call-to-action .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .call-to-action .cta-button:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+  
