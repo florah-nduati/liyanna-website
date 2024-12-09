@@ -1,5 +1,5 @@
-import React from 'react';
-import './services.css';
+import React from "react";
+import "./services.css";
 import image1 from "../../assets/hotel.jpg";
 import image2 from "../../assets/airport.jpg";
 import image3 from "../../assets/yatch.jpg";
@@ -13,51 +13,51 @@ const KeyServices = () => {
   const services = [
     {
       id: 1,
-      title: 'Hotel Bookings',
-      description: 'Book luxurious stays in top-rated hotels around the world.',
+      title: "Hotel Bookings",
+      description: "Book luxurious stays in top-rated hotels around the world.",
       image: image1,
     },
     {
       id: 2,
-      title: 'Airport Transfers',
-      description: 'Seamless, first-class airport transfer services.',
-      image: image2
+      title: "Airport Transfers",
+      description: "Seamless, first-class airport transfer services.",
+      image: image2,
     },
     {
       id: 3,
-      title: 'Luxury Yacht Charter',
-      description: 'Explore the seas with our exclusive yacht charters.',
-      image: image3
+      title: "Luxury Yacht Charter",
+      description: "Explore the seas with our exclusive yacht charters.",
+      image: image3,
     },
     {
       id: 4,
-      title: 'Event Planning',
-      description: 'Plan your dream events with unparalleled luxury.',
-      image: image4
+      title: "Event Planning",
+      description: "Plan your dream events with unparalleled luxury.",
+      image: image4,
     },
     {
       id: 5,
-      title: 'Car Hire',
-      description: 'Travel in style with our luxury car rental services.',
-      image: image5
+      title: "Car Hire",
+      description: "Travel in style with our luxury car rental services.",
+      image: image5,
     },
     {
       id: 6,
-      title: 'Security Services',
-      description: 'Exclusive, professional security for your peace of mind.',
-      image: image6
+      title: "Security Services",
+      description: "Exclusive, professional security for your peace of mind.",
+      image: image6,
     },
     {
       id: 7,
-      title: 'Chartered Planes',
-      description: 'Fly privately with our premium chartered planes.',
-      image: image7
+      title: "Chartered Planes",
+      description: "Fly privately with our premium chartered planes.",
+      image: image7,
     },
     {
       id: 8,
-      title: 'Customized Package Tours',
-      description: 'Tailored tours to create your perfect travel experience.',
-      image: image8
+      title: "Customized Package Tours",
+      description: "Tailored tours to create your perfect travel experience.",
+      image: image8,
     },
   ];
 
@@ -68,9 +68,7 @@ const KeyServices = () => {
         {services.map((service) => (
           <div className="service-card" key={service.id}>
             <img src={service.image} alt={service.title} />
-            <h3>
-              {service.title} 
-            </h3>
+            <h3>{service.title}</h3>
             <span className="service-stars">★★★★★</span>
             <p>{service.description}</p>
           </div>

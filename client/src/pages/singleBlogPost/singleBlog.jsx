@@ -1,5 +1,5 @@
-import React from 'react';
-import './SingleBlog.css';
+import React from "react";
+import "./SingleBlog.css";
 
 const SingleBlog = () => {
   return (
@@ -13,10 +13,14 @@ const SingleBlog = () => {
       />
       <div className="blog-content">
         <p>
-          Explore the top luxury destinations for 2024! From stunning beaches to exclusive mountain retreats, these locations are perfect for unforgettable adventures. Enjoy tailored experiences with world-class amenities.
+          Explore the top luxury destinations for 2024! From stunning beaches to
+          exclusive mountain retreats, these locations are perfect for
+          unforgettable adventures. Enjoy tailored experiences with world-class
+          amenities.
         </p>
         <p>
-          At Liyanna Luxury Tours, we specialize in making these trips happen with ease and style. Discover what awaits you!
+          At Liyanna Luxury Tours, we specialize in making these trips happen
+          with ease and style. Discover what awaits you!
         </p>
       </div>
     </div>

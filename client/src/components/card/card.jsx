@@ -1,5 +1,5 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
 
 const Card = ({ image, title, description, buttonLabel, buttonLink }) => {
   return (
@@ -8,7 +8,9 @@ const Card = ({ image, title, description, buttonLabel, buttonLink }) => {
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
         <p className="card-description">{description}</p>
-        <a href={buttonLink} className="card-btn">{buttonLabel}</a>
+        <a href={buttonLink} className="card-btn">
+          {buttonLabel}
+        </a>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import './hero.css';
-import video1 from '../../assets/hero.mp4';
-import video2 from '../../assets/hero1.mp4';
-import video3 from '../../assets/hero2.mp4'; 
-import video4 from '../../assets/hero3.mp4';
+import React, { useState, useEffect } from "react";
+import "./hero.css";
+import video1 from "../../assets/hero.mp4";
+import video2 from "../../assets/hero1.mp4";
+import video3 from "../../assets/hero2.mp4";
+import video4 from "../../assets/hero3.mp4";
 
 const videos = [video1, video2, video3, video4];
 
@@ -44,7 +44,7 @@ const HeroSection = () => {
           {videos.map((_, index) => (
             <button
               key={index}
-              className={`nav-btn ${index === currentVideo ? 'active' : ''}`}
+              className={`nav-btn ${index === currentVideo ? "active" : ""}`}
               onClick={() => setCurrentVideo(index)}
             ></button>
           ))}

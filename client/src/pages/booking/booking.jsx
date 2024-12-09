@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import './booking.css';
+import React, { useState } from "react";
+import "./booking.css";
 
 const Booking = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    package: '',
+    name: "",
+    email: "",
+    phone: "",
+    package: "",
   });
 
   const handleChange = (e) => {
@@ -15,7 +15,7 @@ const Booking = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Booking Submitted:', formData);
+    console.log("Booking Submitted:", formData);
   };
 
   return (

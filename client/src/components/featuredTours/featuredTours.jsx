@@ -1,28 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import image1 from "../../assets/beach.jpg";
 import image2 from "../../assets/mountain.jpg";
 import image3 from "../../assets/ciry.webp";
-import './FeaturedTours.css';
+import "./FeaturedTours.css";
 
 const FeaturedTours = () => {
   const tours = [
     {
       id: 1,
-      title: 'Exotic Beach Getaway',
-      description: 'Relax on pristine beaches with top-tier amenities.',
+      title: "Exotic Beach Getaway",
+      description: "Relax on pristine beaches with top-tier amenities.",
       image: image1,
     },
     {
       id: 2,
-      title: 'Mountain Adventure',
-      description: 'Discover breathtaking views and exhilarating hikes.',
+      title: "Mountain Adventure",
+      description: "Discover breathtaking views and exhilarating hikes.",
       image: image2,
     },
     {
       id: 3,
-      title: 'Luxury City Tours',
-      description: 'Experience the finest cityscapes with exclusive access.',
+      title: "Luxury City Tours",
+      description: "Experience the finest cityscapes with exclusive access.",
       image: image3,
     },
   ];

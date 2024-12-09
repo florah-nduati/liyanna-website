@@ -1,7 +1,7 @@
-import React from 'react';
-import './Button.css';
+import React from "react";
+import "./Button.css";
 
-const Button = ({ label, onClick, type = 'button', variant = 'primary' }) => {
+const Button = ({ label, onClick, type = "button", variant = "primary" }) => {
   return (
     <button className={`btn btn-${variant}`} onClick={onClick} type={type}>
       {label}

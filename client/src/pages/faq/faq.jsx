@@ -1,11 +1,22 @@
-import React from 'react';
-import './faq.css';
+import React from "react";
+import "./faq.css";
 
 const FAQs = () => {
   const faqs = [
-    { question: 'What is included in the tour packages?', answer: 'Our packages include accommodation, transfers, and curated activities.' },
-    { question: 'Can I customize my tour?', answer: 'Yes, we offer fully customizable itineraries to suit your preferences.' },
-    { question: 'Are there any hidden fees?', answer: 'No, we provide transparent pricing with no hidden fees.' },
+    {
+      question: "What is included in the tour packages?",
+      answer:
+        "Our packages include accommodation, transfers, and curated activities.",
+    },
+    {
+      question: "Can I customize my tour?",
+      answer:
+        "Yes, we offer fully customizable itineraries to suit your preferences.",
+    },
+    {
+      question: "Are there any hidden fees?",
+      answer: "No, we provide transparent pricing with no hidden fees.",
+    },
   ];
 
   return (

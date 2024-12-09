@@ -1,17 +1,21 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import './tourDetail.css';
+import React from "react";
+import { useParams } from "react-router-dom";
+import "./tourDetail.css";
 
 const TourDetails = () => {
   const { id } = useParams(); // Get tour ID from URL
   // Fetch details based on ID (mock data for now)
   const tour = {
     id,
-    title: 'Beach Getaway',
-    image: 'https://source.unsplash.com/800x400/?beach,resort',
+    title: "Beach Getaway",
+    image: "https://source.unsplash.com/800x400/?beach,resort",
     description:
-      'Spend your days lounging on white sand beaches, sipping cocktails by the sea, and enjoying luxurious 5-star accommodations.',
-    itinerary: ['Day 1: Arrival and beach relaxation', 'Day 2: Island hopping tour', 'Day 3: Spa and leisure'],
+      "Spend your days lounging on white sand beaches, sipping cocktails by the sea, and enjoying luxurious 5-star accommodations.",
+    itinerary: [
+      "Day 1: Arrival and beach relaxation",
+      "Day 2: Island hopping tour",
+      "Day 3: Spa and leisure",
+    ],
   };
 
   return (
