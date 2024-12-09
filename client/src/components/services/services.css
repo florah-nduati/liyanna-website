@@ -6,8 +6,12 @@
   
   .section-title {
     font-size: 2rem;
-    color: #8547e0;
+    color: #37034d;
     margin-bottom: 2rem;
+  }
+  .service-stars {
+    font-size: 1.2rem;
+    color: #ff0000; /* Red stars */
   }
   
   .services-grid {
@@ -42,11 +46,11 @@
   .service-card h3 {
     font-size: 1.3rem; /* Slightly larger title */
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #37034d;
   }
   
   .service-card p {
-    color: #666;
+    color: black;
     font-size: 1rem; /* Adjusted font size for better readability */
     line-height: 1.5;
   }

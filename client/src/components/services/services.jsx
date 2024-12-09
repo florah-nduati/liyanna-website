@@ -36,30 +36,29 @@ const KeyServices = () => {
       image: image4
     },
     {
-        id: 5,
-        title: 'car hire',
-        description: 'Plan your dream events with unparalleled luxury.',
-        image: image5
-      },
-
-      {
-        id: 6,
-        title: 'security services',
-        description: 'Plan your dream events with unparalleled luxury.',
-        image: image6
-      },
-      {
-        id: 7,
-        title: 'chatered planes',
-        description: 'Plan your dream events with unparalleled luxury.',
-        image: image7
-      },
-      {
-        id: 8,
-        title: 'customized package tours',
-        description: 'Plan your dream events with unparalleled luxury.',
-        image: image8
-      },
+      id: 5,
+      title: 'Car Hire',
+      description: 'Travel in style with our luxury car rental services.',
+      image: image5
+    },
+    {
+      id: 6,
+      title: 'Security Services',
+      description: 'Exclusive, professional security for your peace of mind.',
+      image: image6
+    },
+    {
+      id: 7,
+      title: 'Chartered Planes',
+      description: 'Fly privately with our premium chartered planes.',
+      image: image7
+    },
+    {
+      id: 8,
+      title: 'Customized Package Tours',
+      description: 'Tailored tours to create your perfect travel experience.',
+      image: image8
+    },
   ];
 
   return (
@@ -69,7 +68,10 @@ const KeyServices = () => {
         {services.map((service) => (
           <div className="service-card" key={service.id}>
             <img src={service.image} alt={service.title} />
-            <h3>{service.title}</h3>
+            <h3>
+              {service.title} 
+            </h3>
+            <span className="service-stars">★★★★★</span>
             <p>{service.description}</p>
           </div>
         ))}
