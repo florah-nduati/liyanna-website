@@ -1,5 +1,5 @@
 import React from "react";
-import "./SingleBlog.css";
+import "./singleBlog.css";
 
 const SingleBlog = () => {
   return (

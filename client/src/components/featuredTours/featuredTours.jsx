@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import image1 from "../../assets/beach.jpg";
 import image2 from "../../assets/mountain.jpg";
 import image3 from "../../assets/ciry.webp";
-import "./FeaturedTours.css";
+import "./featuredTours.css";
 
 const FeaturedTours = () => {
   const tours = [
